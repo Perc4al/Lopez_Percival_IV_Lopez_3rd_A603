@@ -1,0 +1,10 @@
+@media only screen and (min-width: 768px){
+	/*home ================================================================================================*/
+	.home-img {
+		padding-left: 160px;
+	}
+	.art-column {
+		flex: 48%;
+		max-width: 48%;
+	}
+}

@@ -1,0 +1,41 @@
+@media only screen and (min-width: 1224px){
+	.navbar {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.navbar-text{
+		font-size: 20px;
+	}
+	.navbar-table button{
+		height: 30px;
+		font-size: 18px;
+	}
+	/*all purpose*/
+	.page-content {
+		width: 80%;
+		margin: 0 auto;
+	}
+	.page-content p{
+		font-size: 20px;
+	}
+	/*home*/
+	.home-img{
+		padding-left: 260px;
+	}
+	/*aboutme*/
+
+	/*profile ================================================================================================*/
+	.profile-navigator{
+		width: 80%;
+	}
+	.profile-table th{
+		font-size: 24px;
+	}
+	.profile-table td{
+		font-size: 20px;
+	}
+	.art-column {
+		flex: 24%;
+		max-width: 24%;
+	}
+}

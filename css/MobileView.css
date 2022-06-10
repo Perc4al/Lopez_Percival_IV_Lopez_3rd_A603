@@ -1,0 +1,172 @@
+body {
+	background-color: #ffd8d8;
+	font-family: 'Times New Roman', Times, arial;
+}
+/*navbar ================================================================================================*/
+.navbar {
+	background-color: #de3f3f;
+	padding-top: 1px;
+}
+.navbar-title {
+	background-color: #ffffff;
+	font-size: 32px;
+	text-align: center;
+}
+.navbar-table{
+	float: top;
+	width: 100%;
+	background-color: white;
+	padding: 0;
+	margin-top: 0px;
+}
+.navbar-table tr{
+	width:100%;
+}
+.navbar-table button{
+	height: 40px;
+	width: 100%;
+	border-width: 0px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 20px;
+	font-weight: bold;
+	color: white;
+	background-color: #de3f3f;
+}
+.navbar-text {
+	color: #de3f3f;
+	background-color: white;
+	text-align: center;
+	font-size: 24px;
+}
+/*all purpose ================================================================================================*/
+.page-content {
+	margin-top: 10px;
+	background-color: #F9B1B1;
+}
+.page-content h1{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size: 30px;
+	padding-top: 20px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.page-content p{
+	font-size: 22px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+}
+/*index page ================================================================================================*/
+.home-img {
+	padding-top: 20px;
+	float: left;
+	width: 50%;
+	max-width: 238px;
+}
+.home-contact-table {
+	padding-bottom: 50px;
+	table-layout: fixed;
+}
+.home-contact-table button{
+	background-color: #de3f3f;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: white;
+	font-size: 18px;
+
+	width: 100%;
+	border-width: 0px;
+	height: 30px;
+}
+.home-icon {
+	height: 100%;
+}
+/*about me page ================================================================================================*/
+.about-img {
+	width: 100%;
+	height: auto;
+}
+/*profile ================================================================================================*/
+.profile-navigator {
+	background-color: #de3f3f;
+	padding: 2px;
+	margin: 0 auto;
+	margin-top: 10px;
+}
+.table-profile-navigator {
+	width: 100%;
+	table-layout: fixed;
+}
+@media only screen and (max-width: 768px){
+	.table-profile-navigator td {
+		width: 100%;
+		display: block;
+	}
+	.table-profile-navigator tr {
+		display: block;
+	}
+}
+.table-profile-navigator button{
+	width: 100%;
+	border-width: 0px;
+	font-family: 'Times New Roman', Times, serif;
+	font-size: 22px;
+	color: #A12E2E;
+}
+.profile-table {
+	width: 100%;
+}
+.profile-table th {
+	background-color: #de3f3f;
+	color: white;
+	font-size: 26px;
+}
+.profile-table td {
+	background-color: white;
+	font-size: 22px;
+	padding: 10px;
+}
+/*project ================================================================================================*/
+.project-item {
+	width: 100%;
+	table-layout: fixed;
+}
+@media only screen and (max-width: 768px){
+	.project-item td {
+		width: 100%;
+		display: block;
+	}
+	.project-item tr {
+		display: block;
+	}
+}
+.project-item img{
+	width:100%;
+}
+.project-item button{
+	float: right ;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: white;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	color: #de3f3f;
+	font-size: 18px;
+	border-width: 0px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+/*art gallery*/
+.art-row {
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+.art-column {
+	flex: 100%;
+	max-width: 100%;
+	padding: 0 4px;
+}
+.art-column img {
+	margin-top: 8px;
+	vertical-align: middle;
+	width: 100%;
+}
