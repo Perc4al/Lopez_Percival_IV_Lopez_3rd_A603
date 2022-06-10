@@ -39,7 +39,7 @@ availableButton3.onmouseleave = function(){
 };
 // button functionalities
 btnHome.onclick = function(){
-	window.open("Index.html","_self");
+	window.open("index.html","_self");
 };
 btnAbout.onclick = function(){
 	window.open("AboutMe.html","_self");
